@@ -10,7 +10,7 @@ prompt.get('input', function (err, result) {
     matrix.push(new Array(n).fill('*'))
   }
   for(n of matrix){
-    console.log(n.join(' '));
+    console.log(n.join(''));
   }
   
 });
